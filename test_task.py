@@ -6,7 +6,7 @@ from time import sleep
 def driver(request):
     email = "rockthismustaine@gmail.com"
     pwd = "Strongpwd13"
-    browser = webdriver.Chrome('/Users/kostyafrolov/Downloads/chromedriver2')
+    browser = webdriver.Chrome('/Users/kostyafrolov/Downloads/chromedriver2') #set path to webdriver
     browser.get("https://stackoverflow.com")
     browser.find_element_by_css_selector('a.login-link.btn-clear').click()
     browser.find_element_by_css_selector('[name="email"]').send_keys(email)
