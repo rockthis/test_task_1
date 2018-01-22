@@ -1,0 +1,6 @@
+{
+  "task.py::TestClass::()::test_two": true,
+  "task.py::Test_set::()::test_two": true,
+  "test_task.py::test_one": true,
+  "test_task.py::test_two": true
+}
