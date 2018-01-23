@@ -37,3 +37,7 @@ class Testset():
         question.click()
         question_header = driver.find_element_by_css_selector('.question-hyperlink').text
         assert str(title) == str(question_header)
+        
+# Second part
+# For downloading 
+# wget --mirror -p --convert-links -P ./Desktop www.walla.co.il 
